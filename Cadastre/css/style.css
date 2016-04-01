@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.wrapper{
+	width: 1215px;
+	margin: 0 auto;
+	
+}
+
+.header{
+	width: 1215px;
+	height: 34px;
+	background: url(../img/main-background.jpg);
+}
+
+.menu{
+	float: left;
+	padding-left: 470px;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+}
+.menu a{
+	display: block;
+	color: #60b5ed;
+	text-decoration: none;
+	padding: 8px 12px;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+.menu li:last-child{
+	padding-right: 12px;
+	border-right: 1px solid #56a2dc;
+	
+}
+
+.menu a:hover{
+	background: #4eabda;
+	color: #fff;
+	transition:0.2s all;
+}
+
+
+
