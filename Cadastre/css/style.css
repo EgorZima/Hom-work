@@ -1,13 +1,32 @@
 *{
 	margin: 0;
 	padding: 0;
+}
 
+@font-face {
+  font-family: "helvetica";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/helveticaneue-thin-webfont.eot");
+  src: url("../fonts/helveticaneue-thin-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/helveticaneue-thin-webfont.woff2") format("woff2"),
+  url("../fonts/helveticaneue-thin-webfont.woff") format("woff"),
+  url("../fonts/helveticaneue-thin-webfont.ttf") format("truetype");
+}
+
+body{
+	 font-family: helvetica, Arial, sans-serif;
 }
 
 .wrapper{
 	width: 1215px;
 	margin: 0 auto;
-	
+}
+
+.clearfix{
+	content: '';
+	display: block;
+	clear: both;
 }
 
 .header{
@@ -16,14 +35,21 @@
 	background: url(../img/main-background.jpg);
 }
 
-.menu{
-	float: left;
-	padding-left: 470px;
+.main-menu{
+	position: relative;
 }
+
+.menu{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
 .menu li{
     display: inline-block;
     list-style: none;
 }
+
 .menu a{
 	display: block;
 	color: #60b5ed;
@@ -32,10 +58,10 @@
 	font-family: Tahoma;
 	font-size: 14px;
 }
-.menu li:last-child{
+
+.menu li:nth-child(5){
 	padding-right: 12px;
 	border-right: 1px solid #56a2dc;
-	
 }
 
 .menu a:hover{
@@ -43,6 +69,62 @@
 	color: #fff;
 	transition:0.2s all;
 }
+
+.Mihnas a{
+	position: relative;
+	padding-left: 50px;
+	color: #fff;
+}
+
+.Mihnas a:after{
+	position: absolute;
+	background-image: url(../img/flag.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	left: 10px;
+	top:6px;
+	content: '';
+}
+
+.Ola {
+	padding-right: 20px;
+}
+
+.Ola a{
+   color: #fff;
+   background: url(../img/ola.jpg);
+   border-right: 1px solid #62a7e2;
+   border-left: 1px solid #62a7e2;
+   border-bottom: 1px solid #62a7e2;
+}
+
+.Ola span{
+	text-decoration: underline;
+}
+
+.Ola a:hover{
+	background: url(../img/ola.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
