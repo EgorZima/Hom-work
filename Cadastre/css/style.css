@@ -149,7 +149,7 @@ input::-webkit-input-placeholder {
 input:-moz-placeholder {
 	color:#ccc;
 }
-.registration  input:hover{
+.registration  input:focus{
 	background: #1b5288;
 	transition:0.3s all;
 	box-shadow: 0px 0px 3px 3px rgba(104,155,204,0.86);
@@ -186,6 +186,7 @@ label{
 .button:hover{
 	background: #6ec2e8;
 	transition:.8s all;
+	box-shadow: none;
 }
 .click{
 	color:#ccc;
