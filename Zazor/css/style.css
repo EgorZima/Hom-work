@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Tahoma, Arial;
+}
+.wrapper{
+	width: 908px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+.enter{
+    height: 40px;
+}
+.telephone{
+    display: block;
+    width: 34px;
+    height: 34px;
+    background: url(../img/sprite.png);
+    background-position: 30px 4px;
+    float: left;
+}
+.number1, .number2{	
+    font-size: 18px;
+	color: #5e696d;
+    display: inline-block;
+    cursor: pointer;
+}
+.number1{
+    padding-right: 6px;
+}
+.number1:hover{
+    color:#81949b;
+    transition: 0.2s;
+}
+.number2:hover{
+    color:#81949b;
+    transition: 0.2s;
+}
+.log-in{
+	background-image: linear-gradient(to bottom, #1F6787 0%, #0C3357 100%);
+	box-shadow: 0px 2px 2px 0px rgba(89,109,128,0.7);
+	width: 494px;
+	display: inline-block;
+	height: 26px;
+	display: inline-block;
+	vertical-align: bottom;
+	border-radius: 4px;
+    margin-top:4px;
+}
+input{
+    width: 107px;
+    height: 16px;
+    margin-top: 5px;
+    border: none;
+    padding-left: 5px;
+}
+.registration{
+	color:#fff;
+	font-size: 12px;
+	text-decoration: none;
+}
+.forgot{
+	color:#bfbfbf;
+	padding-left: 20px;
+	font-size: 12px;
+}
+.forgot:hover{
+    color: #aebdc2;
+    text-decoration: none;
+}
+.men{
+	display: block;
+    width: 26px;
+    height: 30px;
+    background: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 6px ;
+    float: left;
+}
+.section{
+	display: block;
+    margin-right:14px; 
+    float: right;
+    width: 86px;
+    height:34px;
+    background: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -62px;
+}
+.logo{
+    background: url(../img/logo.jpg);
+    width: 908px;
+    height: 238px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
