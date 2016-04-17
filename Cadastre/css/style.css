@@ -1,6 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
+	list-style: none;
+    text-decoration: none;
 }
 body{ 
     background: url(../img/content.jpg )no-repeat; 
@@ -9,8 +11,7 @@ body{
 }
 
 .wrapper{
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 }
 .center{
 	width: 1215px;
@@ -20,26 +21,23 @@ body{
 	width: 100%;
 	height: 34px;
 	background: url(../img/main-background.jpg);
+	margin-bottom: 100px;
 }
 .main-menu{
 	position: relative;
 	text-align: center;
-
 }
 .menu{
-	margin: 0;
-	padding: 0;
 	width: 1215px;
 	margin: 0 auto;
+    font-size: 0;
 }
 .menu li{
     display: inline-block;
-    list-style: none;
 }
 .menu a{
 	display: block;
 	color: #60b5ed;
-	text-decoration: none;
 	padding: 8px 12px;
 	font-family: Tahoma;
 	font-size: 14px;
@@ -68,10 +66,6 @@ body{
 	top:6px;
 	content: '';
 }
-.Ola {
-	padding-right: 20px;
-}
-
 .Ola a{
    color: #fff;
    background: url(../img/ola.jpg);
@@ -82,38 +76,26 @@ body{
 .Ola span{
 	text-decoration: underline;
 }
-.Ola a:hover{
-	background: url(../img/ola.jpg);
-}
 
-
-.cadastre-se img{
-	display: inline-block;
-	position: absolute;
-	width: 100%;
-	height: 1030px;
-}
-.cadastre-se .se-content{
+.se-content{
 	display: block;
 	position:relative;
 	width: 560px;
     margin: 0 auto;
     background: rgba(0,0,0,0.6);
-    top:100px;
 }
 .name{
-	display: block;
-	margin-bottom: 2px;
-    position: relative;
+	margin-bottom: 36px;
 }
-.name h2{
+.name a{
+	display: block;
     font-size: 24px;
 	color: #fff;
 	text-align: center;
 	font-family: Tahoma;
 	padding: 18px 0;
-	font-weight: lighter;
-}|
+	font-weight: lighter;	
+}
 .wrap{
 	width: 278px;
 	margin: 0 auto;
@@ -121,26 +103,23 @@ body{
 .cadastre-se .log-in{
 	display: block;
 	height: 486px;
-
 }
 .facebook{
 	display: block;
-	background-image:url(../img/facebook.jpg) ;
+	background-image:url(../img/facebook.png) ;
 	background-repeat: no-repeat;
-	background-position: 0 36px;
-    width: 276px;
-	height: 76px;
-	
+    width: 278px;
+	height: 36px;
+	margin-bottom:32px; 	
+}
+.facebook:hover{
+	opacity: 0.6;
+	transition: 0.2s all;
 }
 .log-in .stripes{
 	width: 276px;
     height: 12px;
-    padding-top: 32px;
-    
-}
-.registration{
-	
-	padding-top: 66px;
+    margin-bottom: 66px   
 }
 .registration input{
 	width: 256px;
@@ -168,9 +147,9 @@ input:-moz-placeholder {
 	box-shadow: 0px 0px 3px 3px rgba(104,155,204,0.86);
 }
 .checkbox{
-
-	font-family: Tahoma,Arial;
+    font-family: Tahoma,Arial;
 	cursor: pointer;
+	margin-bottom: 22px;
 }
 label{
 	color:#ccc;
@@ -181,12 +160,16 @@ label{
 	transition:0.3s all;
 	box-shadow: 0px 0px 3px 3px rgba(104,155,204,0.86);
 }
+.create{
+    margin: 0 auto;
+    width: 170px;
+    margin-bottom: 20px;
+}
 .button{
-	margin-left: 58px;
-	margin-top: 22px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background: linear-gradient(to bottom, rgba(80,175,219,1) 0%, rgba(46,121,196,1) 51%, rgba(46,122,196,1) 58%, rgba(46,122,196,1) 84%, rgba(46,122,196,1) 100%);
     color:#fff;
-	width: 170px;
 	font-size: 16px;
 	font-family: Tahoma,Arial;
 	border: none;
@@ -207,11 +190,9 @@ label{
 	font-family: Tahoma, Arial;
 	font-size: 12px;
     line-height: 18px;
-    padding-top: 20px;
     padding-bottom: 20px;
     width: 314px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
 
