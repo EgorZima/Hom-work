@@ -1,7 +1,8 @@
 *{
 	padding: 0;
 	margin: 0;
-	
+	list-style: none;
+	text-decoration: none;	
 }
 body{
 	background: #f9f9f9;
@@ -11,124 +12,125 @@ body{
 	width: 968px;
 	margin: 0 auto;
 	background: #fff;
-	padding:0  46px;
+	padding-left:   46px;
+	padding-right: 46px;
 	box-shadow: 0 0 4px 0 #c8c8c8;
+	padding-bottom: 40px;
 }
+.clearfix{
+ 	display: block;
+ 	content: '';
+ 	clear: both;
+ }
 .header{
-    padding-top: 50px;
-    
+    padding-top: 50px;  
+    padding-bottom: 40px; 
 }
-
-
+.logo {
+	display: block;
+	margin-bottom: 40px; 	
+}
 .menu{
 	background: #4b4a4a;
-	margin-top: 40px;
-
+	font-size: 0;
 }
 .menu li{
-	display: inline-block;
-	list-style: none;
-
+	display: inline-block;	
 }
 .menu a{
 	display: block;
-	line-height: 40px;
 	font-size: 15px;
 	color:#fff;
-	text-decoration: none;
-	padding: 0 43px;
+	padding: 14px 42px;
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
-
+	transition: 0.2s all;
 }
 .menu a:hover{
     background: #323232;
     border-left: 1px solid #838383; 
     border-right: 1px solid #838383;
- }
-
+    transition: 0.2s all;
+}
 
 .content{
- 	padding-top:40px;
- 	overflow: hidden;
- 	
- 	
+    display: inline-block;
+    margin-bottom: 60px; 
  }
-
 .sitebar{
  	width: 240px;
  	border:1px solid #c8c8c8;
  	float: left;
-
-
- }
+ 	font-size: 0;
+}
 .bar-menu li{
- 	list-style: none;
- 	border-top: 1px solid #c8c8c8;
-
+    border-top: 1px solid #c8c8c8;
  }
 .bar-menu a{
     display: block;
     padding-left: 23px;
-    line-height: 37px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     color:#656363;
-    text-decoration: none;
     transition:0.3s all;
     font-size: 13px;
 }
- 
 .bar-menu li:first-child{
  	border:none;
  }
-
 .bar-menu a:hover{
- 	padding-left: 35px;
+ 	padding-left: 36px;
  	background:#f9f9f9;
  	color: #2c2c2c;
  	transition:0.3s all;
  }
-
  .product{
  	float: right;
- 	width:678px;
- 	
+ 	width:678px; 
+ 	border:1px solid #c8c8c8;
+ 	margin-bottom: 40px;	
 }
 .product-image {
-	border:1px solid #c8c8c8;
-	text-align: center;
+	padding-left: 100px;
 	padding-top: 55px;
-	padding-bottom: 55px;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
+}
+.fish-text{
+	float: right;
+ 	width:628px;
+ 	padding-right: 20px;	
 }
 
-p{
-	padding-left: 25px;
-	padding-right: 25px;
-	font-size: 13px;
-	color:#2c2c2c;
-	line-height: 20px;
-	
+.footer{
+	background: #e1e1e1;
+	width: 100%;
+	height:50px;
 }
 .footer-menu{
-	background: #e1e1e1;
-	margin:40px 0;
+    float: left;
+    font-size: 0;
 }
 .footer-menu li{
-	line-height: 40px;
 	display: inline-block;
-	list-style: none;
-
 }
 .footer-menu a{
+	display: block;
 	color: #2c2c2c;
-	text-decoration: none;
-	padding: 0 43px;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-bottom: 18px;
+	padding-top: 14px;
 	font-size: 13px;
 }
-.footer-menu li:last-child{
-	float: right;
-	padding: 0 43px;
-	font-size: 13px;
+.footer-menu a:hover{
+	background: #ccc;
+	transition: 0.2s all;
 }
+.right{
+	float:right;
+	padding-top: 14px;
+	padding-right: 26px;
+}
+
 
 
