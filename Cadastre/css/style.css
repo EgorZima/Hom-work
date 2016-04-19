@@ -8,11 +8,16 @@ body{
     background: url(../img/content.jpg )no-repeat; 
     background-size: cover; 
     font-family: helvetica, "Helvetica Neue"; 
+    overflow:  hidden;
 }
 
 .wrapper{
-	margin: 0 auto;	
+	margin: 0 auto;
+	background: url(../img/content.jpg )no-repeat; 
+    background-size: cover; 
+	
 }
+
 .center{
 	width: 1215px;
 	margin: 0 auto;
@@ -21,7 +26,7 @@ body{
 	width: 100%;
 	height: 34px;
 	background: url(../img/main-background.jpg);
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 .main-menu{
 	position: relative;
@@ -119,7 +124,7 @@ body{
 .log-in .stripes{
 	width: 276px;
     height: 12px;
-    margin-bottom: 66px   
+    margin-bottom: 20px;   
 }
 .registration input{
 	width: 256px;
