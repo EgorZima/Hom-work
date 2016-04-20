@@ -15,20 +15,22 @@ body{
 	margin: 0 auto;	
 }
 .top-menu{
-    min-width: 1600px;
-	height: 28px;
+	margin: 0 auto;
+    height: 28px;
 	background: #fff;
 	border-bottom: 1px solid #d9d9d9;
-	margin-bottom: 40px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
 }
 .main-menu{
+	margin: 0 auto;
 	width: 960px;
 	height: 28px;
-	margin: 0 auto;
 }
 .menu{
 	float: left;
-	font-size: 0;   	
+	font-size: 0; 	 	
 }
 .menu li{
 	display: inline-block;	 
@@ -46,14 +48,15 @@ body{
 }
 .social{
 	float: right;
-	height: 28px;
+	margin: 0 auto;
+	padding-top: 4px;
+    padding-bottom: 6px;
 }
 .web{
 	display: inline-block;
 	background: url(../img/sprite.png);
 	width: 18px;
-	height: 20px;
-	margin-top: 4px;
+	height: 20px;	
 }
 .web1{
 	background-position: 1px -2px;
@@ -78,10 +81,9 @@ body{
 	transition:0.2s;
 }
 
-.threezine{
+.header{
 	width: 960px;
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 }
 .logo{
 	display: inline-block;
@@ -89,6 +91,7 @@ body{
 	width: 184px;
 	height: 30px;
 	margin-bottom: 38px;
+	margin-top: 64px;
 }
 .home-menu{
 	width: 960px;
