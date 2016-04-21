@@ -2,8 +2,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	text-decoration: none;
-		
+	text-decoration: none;		
 }
 body{
 	background: #e9e9e9;
@@ -154,9 +153,13 @@ img{
 	width: 280px;
 	height: 60px;
 	background:#fff;
-	padding-bottom: 10px;
+	padding-bottom: 8px;
 	cursor: pointer;
+	margin-bottom: 2px;
 	transition: 0.2s;
+}
+.column:last-child{
+	border: none;
 }
 .column img{
 	width: 60px;
@@ -192,10 +195,12 @@ img{
 	width: 960px;
 	margin: 0 auto;	
 }
+
 .left-column{
 	width: 221px;
 	float: left;
 }
+
 .left{
 	width: 220px;
 	box-shadow: 1px 1px 0px 1px rgba(217,217,217,1);
@@ -203,53 +208,57 @@ img{
 	margin-bottom: 12px;
 }
 
-.post{
+.resent-post{
 	height: 312px;
 }
-.resent{
+.popular-post{
+	height: 312px;
+}
+.left-title{
 	font-size: 18px;
 	color:#535353;
 	padding-top: 13px;
 	padding-bottom: 8px;
 	margin-left: 10px;
-	margin-right: 10px;
 	border-bottom: 1px dotted #c2c2c2;
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
-.block{
-	width: 200px;
+.resent, .popular{
+	width: 210px;
 	height: 50px;
 	background:#fff;
 	padding-bottom: 6px;
 	padding-top: 6px;
 	cursor: pointer;
 	transition: 0.2s;
-	margin-left: 10px;
+	padding-left: 10px;
 	transition: 0.2s all;
 }
-.block img{
+.resent img, .popular img{
 	width: 60px;
 	height: 50px;
 	margin: 0;
 	padding: 0;
 	transition: 0.2s;
 }
-.block-text{
+.resent-text, .popular-text{
      padding-left: 80px;
      color: #717171;
      font-size: 12px;
      transition: 0.2s;
 }
-.block-text span{
+.resent-text span, .popular-text span{
+	display: block;
 	font-size: 11px;
 	color:#a4a4a4;
 	font-family: italic;
+	padding-top: 2px;
 }
-.block:hover{
+.resent:hover, .popular:hover{
 	background: #ccc;
 	transition: 0.2s;
 }
-.block-text:hover{
+.resent-text:hover, .popular-text:hover{
 	color:#7da1bc;
 	transition: 0.2s;
 }
@@ -257,12 +266,73 @@ img{
 .comment{
     height: 207px;
 }
+.comments-text {
+	display: block;
+	font-size: 12px;
+	color: #717171;
+	padding: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 3px;
+	transition: 0.2s all;
+}
+.comments-text span{
+	color:#2e2e2e;
+}
+.comments-text:hover{
+	background: #ccc;
+	color:#7da1bc;
+	transition: 0.2s all;
+}
+
+
 .flickr{
     height: 176px;
 }
+.main-flirck{
+    margin-left:6px;
+    margin-right: 6px;
+}
+.flickr-block{
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 5px;
+	width: 60px;
+	height: 50px;
+	background: #e8e8e8;
+}
+.flickr-block a{
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 60px;
+	transition: 0.2s all;
+}
+.flickr-block a:hover{
+	background: #ccc;
+	transition: 0.2s all;
+}
+
 .twitter{
 	height: 180px;
 }
+.twitter-text{
+	color: #717171;
+	font-size: 11px;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding: 4px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	transition: 0.2s all;
+}
+.twitter-text span{
+	color: #2e2e2e;
+}
+.twitter-text:hover{
+	background: #ccc;
+	transition: 0.2s all;
+}
+
 
 .center-column{
     width: 490px;
