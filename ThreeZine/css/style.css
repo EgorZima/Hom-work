@@ -59,22 +59,22 @@ body{
 	height: 20px;	
 }
 .web1{
-	background-position: 1px -2px;
+	background-position: 1px -26px;
 }
 .web2{
-	background-position: -21px -2px;
+	background-position: -18px -26px;
 }
 .web3{
-	background-position: -42px -2px;
+	background-position: -36px -26px;
 }
 .web4{
-	background-position: -62px -2px;
+	background-position: -55px -26px;
 }
 .web5{
-	background-position: -82px -2px;
+	background-position: -72px -26px;
 }
 .web6{
-	background-position: -102px -2px;
+	background-position: -90px -26px;
 }
 .web:hover{
 	opacity: 0.5;
@@ -207,13 +207,6 @@ img{
 	background: #fff;
 	margin-bottom: 12px;
 }
-
-.resent-post{
-	height: 312px;
-}
-.popular-post{
-	height: 312px;
-}
 .left-title{
 	font-size: 18px;
 	color:#535353;
@@ -222,7 +215,15 @@ img{
 	margin-left: 10px;
 	border-bottom: 1px dotted #c2c2c2;
 	margin-bottom: 8px;
+	cursor: pointer;
 }
+.resent-post{
+	height: 312px;
+}
+.popular-post{
+	height: 312px;
+}
+
 .resent, .popular{
 	width: 210px;
 	height: 50px;
@@ -346,6 +347,60 @@ img{
 	box-shadow: 1px 1px 0px 1px rgba(217,217,217,1);
 	display: right;
 	background: #fff;
+}
+.center-title{
+	font-size: 20px;
+	color:#535353;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 1px dotted #c2c2c2;
+	cursor: pointer;
+}
+.info{
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 1px dotted #c2c2c2;
+}
+.info a{
+	display: inline-block;
+	color:#717171;
+	font-size: 10px;
+	margin-top: 10px;
+	padding-left: 18px;
+	margin-bottom: 10px;
+}
+.info1{
+	background: url(../img/sprite.png);
+	width: 68px;
+	height: 15px;
+	margin-right: 10px;
+	;
+}
+.data{
+	background-position: -114px -3px;	
+}
+.admin{
+	background-position: -114px 19px;
+}
+.comm{
+	background-position: -114px 35px;	
+}
+.link{
+	background-position: -114px 52px;	
+}
+.news-photo{
+	width: 470px;
+	height: 264px;
+	margin-bottom: 14px;
+}
+.news-text{
+	color:#717171;
+	font-size: 12px;
+	line-height: 22px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .right-column{
