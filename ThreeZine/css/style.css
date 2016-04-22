@@ -1,5 +1,5 @@
 *{
-	margin: 0;
+    margin: 0;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;		
@@ -43,7 +43,7 @@ body{
 }
 .menu a:hover{
 	color:#000;
-	background: #ccc;
+	background: #e8e8e8;
 	transition:0.2s ; 
 }
 .social{
@@ -112,7 +112,7 @@ body{
 	transition: 0.2s;
 }
 .home-menu a:hover{
-	background: #ccc;
+	background: #e8e8e8;
 	color: #000;
 	transition: 0.2s;
 }
@@ -153,9 +153,8 @@ img{
 	width: 280px;
 	height: 60px;
 	background:#fff;
-	padding-bottom: 8px;
+	padding-bottom: 10px;
 	cursor: pointer;
-	margin-bottom: 2px;
 	transition: 0.2s;
 }
 .column:last-child{
@@ -176,7 +175,7 @@ img{
      transition: 0.2s;
 }
 .column:hover{
-	background: #ccc;
+	background: #e8e8e8;
 	transition: 0.2s;
 }
 .column-text:hover{
@@ -188,7 +187,6 @@ img{
 	height:54px;
 	transition: 0.2s;
 }
-
 
 .content{
 	display: table;
@@ -213,6 +211,7 @@ img{
 	padding-top: 13px;
 	padding-bottom: 8px;
 	margin-left: 10px;
+	margin-right: 10px;
 	border-bottom: 1px dotted #c2c2c2;
 	margin-bottom: 8px;
 	cursor: pointer;
@@ -244,6 +243,7 @@ img{
 }
 .resent-text, .popular-text{
      padding-left: 80px;
+     height: 50px;
      color: #717171;
      font-size: 12px;
      transition: 0.2s;
@@ -256,7 +256,7 @@ img{
 	padding-top: 2px;
 }
 .resent:hover, .popular:hover{
-	background: #ccc;
+	background: #e8e8e8;
 	transition: 0.2s;
 }
 .resent-text:hover, .popular-text:hover{
@@ -281,11 +281,10 @@ img{
 	color:#2e2e2e;
 }
 .comments-text:hover{
-	background: #ccc;
+	background: #e8e8e8;
 	color:#7da1bc;
 	transition: 0.2s all;
 }
-
 
 .flickr{
     height: 176px;
@@ -309,7 +308,7 @@ img{
 	transition: 0.2s all;
 }
 .flickr-block a:hover{
-	background: #ccc;
+	background: #e8e8e8;
 	transition: 0.2s all;
 }
 
@@ -330,7 +329,7 @@ img{
 	color: #2e2e2e;
 }
 .twitter-text:hover{
-	background: #ccc;
+	background: #e8e8e8;
 	transition: 0.2s all;
 }
 
@@ -376,7 +375,6 @@ img{
 	width: 68px;
 	height: 15px;
 	margin-right: 10px;
-	;
 }
 .data{
 	background-position: -114px -3px;	
@@ -414,20 +412,145 @@ img{
 	background: #fff;
 	margin-bottom: 12px;
 }
+.right-title{
+    font-size: 18px;
+	color:#535353;
+	padding-top: 13px;
+	padding-bottom: 8px;
+	margin-left: 10px;
+	margin-top: 6px;
+    margin-right: 10px;
+	border-bottom: 1px dotted #c2c2c2;
+	cursor: pointer;
+}
+
 .search{
 	height: 96px;	
 }
-.posts{
+input{
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	outline: none;
+	border: none;
+	background: #e8e8e8;
+	color: #535353;
+	font-size: 16px;
+	padding-left: 4px;
+}
+
+.featured-post{
 	height: 310px;	
 }
+.featured{
+	width: 210px;
+	height: 60px;
+	background:#fff;
+	cursor: pointer;
+	transition: 0.2s;
+	padding-left: 10px;
+	padding-top: 6px;
+    transition: 0.2s all;
+}
+.featured img{
+	width: 60px;
+	height: 50px;
+	margin:0;
+	padding: 0;
+	transition: 0.2s;
+}
+.featured-text{
+    height: 50px;
+    padding-left:76px;
+    color: #717171;
+    font-size: 12px;
+    transition: 0.2s; 
+}
+.featured-text span{
+	display: block;
+	font-size: 11px;
+	color:#a4a4a4;
+	font-family: italic;
+	padding-top: 2px;
+}
+.featured:hover{
+	background: #e8e8e8;
+	transition: 0.2s;
+}
+.featured-text:hover{
+	color:#7da1bc;
+	transition: 0.2s;
+}
+
 .tag{
 	height: 200px;	
 }
+.tab{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.label{
+	display: inline-block;
+	color:#717171;
+	background: #e8e8e8; 
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
 .archive{
 	height: 250px;	
 }
+.year{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.month{
+	display: block;
+	color:#717171;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-left: 4px;
+	padding-bottom: 5px;
+	transition: 0.2s;
+}
+.month:hover{
+	background:#e8e8e8;
+	transition: 0.2s;
+}
+
 .ad{
 	height: 275px;	
 }
+.ad-block{
+	height: 100px;
+	background: #e8e8e8;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+.ad-block a{
+	display: block;
+	width: 200px;
+	height:100px;
+}
 
-
+.footer{
+	margin: 0 auto;
+    background: #fff;
+	border-top: 1px solid #d9d9d9;
+	width: 100%;	
+}
+.footer-text{
+	margin: 0 auto;
+	width: 960px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color:#7e7e7e;
+	font-size: 12px;
+}
