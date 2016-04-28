@@ -10,12 +10,7 @@ body{
 	list-style: none;
 	text-decoration: none;
 }
-.wrapper{
-	width: 100%;
-	margin: 0 auto;	
-}
 .top-menu{
-	margin: 0 auto;
     height: 28px;
 	background: #fff;
 	border-bottom: 1px solid #d9d9d9;
@@ -25,8 +20,9 @@ body{
 }
 .main-menu{
 	margin: 0 auto;
-	width: 960px;
+	width: 980px;
 	height: 28px;
+    padding: 0 10px;
 }
 .menu{
 	float: left;
@@ -51,6 +47,7 @@ body{
 	margin: 0 auto;
 	padding-top: 4px;
     padding-bottom: 6px;
+    padding-right: 10px;
 }
 .web{
 	display: inline-block;
