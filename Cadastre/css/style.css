@@ -10,14 +10,11 @@ body{
     font-family: helvetica, "Helvetica Neue"; 
     overflow:  hidden;
 }
-
 .wrapper{
 	margin: 0 auto;
 	background: url(../img/content.jpg )no-repeat; 
-    background-size: cover; 
-	
+    background-size: cover; 	
 }
-
 .center{
 	width: 1215px;
 	margin: 0 auto;
