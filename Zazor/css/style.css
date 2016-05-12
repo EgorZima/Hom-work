@@ -19,6 +19,11 @@ body {
     font-family: Tahoma, Arial;
 }
 
+.container {
+    width: 908px;
+    margin: 0 auto;
+}
+
 .clearfix:after {
     content: '';
     display: block;
@@ -26,8 +31,6 @@ body {
 }
 
 header {
-    width: 908px;
-    margin: 0 auto;
     padding-top: 14px;
     margin-bottom: 4px;
 }
@@ -44,6 +47,12 @@ header {
     background-position: -250px 2px;
     float: left;
     margin-right: 4px;
+}
+
+.numbers {
+    display: inline-block;
+    width: 262px;
+    vertical-align: middle;
 }
 
 .number1,
@@ -538,6 +547,7 @@ select {
 .menu-disk {
     display: inline-block;
     width: 180px;
+    font-size: 0;
 }
 
 .menu-tire li,
@@ -581,6 +591,7 @@ select {
     height: 176px;
     margin-top: 16px;
     margin-left: 22px;
+    text-align: center;
 }
 
 .wheel-title {
@@ -597,15 +608,11 @@ select {
 }
 
 .wheel-image {
+    display: block;
     height: 126px;
     border: 1px solid #b0b9bc;
     background: #fff;
     border-radius: 10px;
-}
-
-.wheel-image img {
-    padding-left: 36px;
-    padding-top: 4px;
 }
 
 .price {
@@ -691,49 +698,8 @@ select {
 
 .partner {
     display: inline-block;
-    background: url(../img/partners.png);
-    height: 26px;
-    margin-left: 9px;
-}
-
-.partner-1 {
-    background-position: 0 0;
-    width: 84px;
-}
-
-.partner-2 {
-    background-position: -118px 0px;
-    width: 98px;
-}
-
-.partner-3 {
-    background-position: -240px 0px;
-    width: 80px;
-}
-
-.partner-4 {
-    background-position: -346px 0;
-    width: 60px;
-}
-
-.partner-5 {
-    background-position: -428px 0;
-    width: 76px;
-}
-
-.partner-6 {
-    background-position: -535px 0;
-    width: 60px;
-}
-
-.partner-7 {
-    background-position: -624px 0;
-    width: 64px;
-}
-
-.partner-8 {
-    background-position: -714px 0;
-    width: 74px;
+    padding: 0 4px;
+    vertical-align: top;
 }
 
 .footer {
@@ -747,6 +713,7 @@ select {
 .footer-menu {
     width: 300px;
     margin: 0 auto;
+    font-size: 0;
     margin-top: 12px;
     margin-bottom: 12px;
 }
@@ -773,7 +740,7 @@ select {
 }
 
 .footer-text {
-    width: 154px;
+    text-align: center;
     margin: 0 auto;
     font-size: 9px;
     color: #7f4740;

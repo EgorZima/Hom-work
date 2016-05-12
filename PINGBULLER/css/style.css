@@ -5,20 +5,6 @@
     list-style: none;
 }
 
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-body {
-    font-family: "LeagueGothic", "Light", Arial;
-}
-
 @font-face {
     font-family: "LeagueGothic";
     src: url(../fonts/league-gothic/LeagueGothic-Regular.otf);
@@ -29,11 +15,34 @@ body {
     src: url(../fonts/opensans_light/OpenSans-Light-webfont.ttf);
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 .clearfix:after {
     content: '';
     display: block;
     clear: both;
 }
+
+body {
+    font-family: "LeagueGothic", "Light", Arial;
+}
+.container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
 .header{
 	background: url(../img/bg.jpg) no-repeat;
     background-position: center center;
@@ -43,15 +52,21 @@ header {
     width: 960px;
     margin: 0 auto;
     padding-bottom: 166px;
-}
-
-.logo {
     padding-top: 60px;
 }
 
+.logo {
+    cursor: pointer;
+}
+.logo:hover{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+
 .main-menu {
     float: right;
-    padding-top: 76px;
+    padding-top: 16px;
     font-size: 0;
 }
 
@@ -129,8 +144,6 @@ header {
 }
 
 .buttons {
-    width: 960px;
-    margin: 0 auto;
     text-align: center;
     padding-bottom: 56px;
 }
@@ -166,13 +179,15 @@ header {
     width: 940px;
     margin: 0 auto;
     padding: 0 10px;
+    padding-top: 72px;
+    padding-bottom: 70px;
+
 }
 
 .about-block {
     float: left;
     width: 272px;
-    padding-top: 72px;
-    padding-bottom: 70px;
+    
 }
 
 .block-2 {
@@ -184,8 +199,7 @@ header {
 .block-3 {
     float: right;
     width: 272px;
-    padding-top: 80px;
-    padding-bottom: 70px;
+   
 }
 
 .about-title {
@@ -338,46 +352,13 @@ header {
 
 .partners-center {
     width: 960px;
-    margin: 0 auto;
-    padding-top: 22px;
-    padding-bottom: 30px;
+    margin: 0 auto;  
 }
 
 .partner {
     display: inline-block;
-    background: url(../img/sprite.png);
-    width: 68px;
-    height: 66px;
-    margin-left: 74px;
-}
-
-.partner-1 {
-    background-position: 0 -42px;
-}
-
-.partner-2 {
-    background-position: -136px -42px;
-}
-
-.partner-3 {
-    background-position: -270px -42px;
-}
-
-.partner-4 {
-    background-position: -410px -42px;
-    width: 50px;
-}
-
-.partner-5 {
-    background-position: -118px -147px;
-    height: 26px;
-    width: 104px;
-    margin-bottom: 20px;
-}
-
-.partner-6 {
-    background-position: -288px -128px;
-    width: 80px;
+    padding: 26px 38px;
+    vertical-align: middle;
 }
 
 .partner:hover {
@@ -394,12 +375,12 @@ header {
     width: 960px;
     margin: 0 auto;
     padding-top: 90px;
+    padding-bottom: 98px;
 }
 
 .company {
     float: left;
     width: 280px;
-    padding-bottom: 98px;
 }
 
 .company-title {
