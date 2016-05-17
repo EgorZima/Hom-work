@@ -37,22 +37,16 @@ body {
 }
 
 .container {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header {
     background: url(../img/bg.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
-}
-
-header {
-    width: 960px;
-    margin: 0 auto;
-    padding-bottom: 60px 10px 166px 10px;
+    padding-top: 60px;
 }
 
 .logo {
@@ -66,15 +60,16 @@ header {
 
 .main-menu {
     float: right;
-    padding-top: 20px;
+    padding-top: 14px;
+    margin-bottom: 170px;
     font-size: 0;
 }
 
-.main-menu li {
+.menu__item {
     display: inline-block;
 }
 
-.main-menu a {
+.menu__link {
     display: block;
     color: #fff;
     font-size: 24px;
@@ -83,7 +78,7 @@ header {
     border-bottom: 2px solid transparent;
 }
 
-.main-menu .last {
+.menu__item .last {
     display: block;
     padding-right: 0;
 }
@@ -101,11 +96,6 @@ header {
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
     margin-bottom: 90px;
-}
-
-.slider-content {
-    width: 960px;
-    margin: 0 auto;
 }
 
 .slider-left {
@@ -178,15 +168,10 @@ header {
     background: linear-gradient(to bottom, rgba(116, 80, 131, 1) 0%, rgba(106, 73, 119, 1) 24%, rgba(85, 60, 96, 1) 51%, rgba(62, 45, 70, 1) 79%, rgba(50, 37, 57, 1) 100%);
 }
 
-.about-content {
-    width: 940px;
-    margin: 0 auto;
-    padding: 68px 10px;
-}
-
 .about-block {
     float: left;
     width: 272px;
+    padding: 62px 0px;
 }
 
 .block-1 {
@@ -194,11 +179,11 @@ header {
 }
 
 .block-2 {
-    margin-left: 0px 52px;
+    margin: 0px 52px;
 }
 
 .block-3 {
-    float: left;
+    float: right;
 }
 
 .about-title {
@@ -251,13 +236,8 @@ header {
 .main-info {
     background: #f9f9f9;
     border-bottom: 1px solid #e6e6e6;
-}
-
-.main-center {
-    width: 960px;
-    margin: 0 auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .start {
@@ -297,7 +277,7 @@ header {
 }
 
 .recent {
-    float: left;
+    float: right;
     margin-left: 60px;
     width: 430px;
 }
@@ -350,11 +330,6 @@ header {
     border-bottom: 1px solid #d8d8d8;
 }
 
-.partners-center {
-    width: 960px;
-    margin: 0 auto;
-}
-
 .partner {
     display: inline-block;
     padding: 26px 38px;
@@ -369,13 +344,7 @@ header {
 .bottom-blocks {
     background: #ececec;
     z-index: 100;
-}
-
-.bottom-center {
-    width: 960px;
-    margin: 0 auto;
-    padding-top: 90px;
-    padding-bottom: 98px;
+    padding: 70px 0px;
 }
 
 .company {
@@ -446,17 +415,7 @@ header {
     font-size: 0;
 }
 
-.footer-menu li {
-    display: inline-block;
-}
 
-.footer-menu a {
-    display: block;
-    color: #fff;
-    font-size: 20px;
-    padding: 6px 22px;
-    text-shadow: 2px 2px 2px rgba(92, 92, 97, 1);
-}
 
 .footer-menu .first {
     padding-left: 0;
@@ -481,9 +440,10 @@ header {
 }
 
 @media (max-width:960px) {
-    header {
+    .container {
         width: 768px;
-        padding: 50px 20px 70px 20px;
+        margin: 0 auto;
+        padding: 0 10px;
     }
     .logo {
         margin-bottom: 24px;
@@ -494,10 +454,6 @@ header {
     }
     .main-menu .first {
         padding-left: 0;
-    }
-    .slider-content {
-        width: 768px;
-        padding: 0 20px;
     }
     .slider-left {
         width: 270px;
@@ -517,10 +473,6 @@ header {
     }
     .slider-text span {
         display: none;
-    }
-    .about-content {
-        width: 768px;
-        padding: 70px 22px;
     }
     .about-block {
         width: 204px;
@@ -557,10 +509,6 @@ header {
     .start-text span {
         display: none;
     }
-    .main-center {
-        width: 768px;
-        padding: 100px 20px 114px 20px;
-    }
     .recent {
         width: 340px;
         margin-left: 20px;
@@ -575,22 +523,15 @@ header {
         float: right;
         font-size: 20px;
     }
-    .partners-center {
-        width: 768px;
-    }
     .partner {
         display: inline-block;
-        padding: 27px 28px;
+        padding: 26px 26px;
     }
     .partner-1 {
         padding-left: 12px;
     }
     .partner-6 {
         padding-right: 12px;
-    }
-    .bottom-center {
-        width: 768px;
-        padding: 100px 30px;
     }
     .comments,
     .company,
@@ -612,10 +553,6 @@ header {
     .company-textv span {
         display: none;
     }
-    .footer-center {
-        width: 768px;
-        padding: 0px 20px;
-    }
     .designer {
         padding-top: 80px;
         padding-right: 10px;
@@ -623,9 +560,10 @@ header {
 }
 
 @media (max-width:768px) {
-    header {
+    .container {
         width: 480px;
-        padding: 50px 20px 30px 20px;
+        margin: 0 auto;
+        padding: 0 10px;
     }
     .logo {
         display: block;
@@ -634,6 +572,7 @@ header {
     .main-menu {
         display: block;
         margin-left: 100px;
+        margin-bottom: 60px;
     }
     .main-menu .first {
         display: block;
@@ -703,11 +642,6 @@ header {
     .slider {
         margin-bottom: 20px;
     }
-    .slider-content {
-        width: 480px;
-        margin: 0 auto;
-        padding: 0px 10px;
-    }
     .buttons {
         padding-bottom: 50px;
     }
@@ -726,24 +660,19 @@ header {
         width: 182px;
         bottom: 4px;
     }
-    .about-content {
-        width: 480px;
-        margin: 0 auto;
-    }
     .about-block {
-        display: block;
         width: 420px;
-        margin-bottom: 32px;
+        padding: 30px 0px;
     }
     .block-1 {
         display: block;
     }
     .block-2 {
         margin: 0;
-        margin-bottom: 32px;
     }
     .block-3 {
         display: block;
+        margin-right: 40px;
     }
     .about-title {
         display: block;
@@ -773,11 +702,6 @@ header {
     .more {
         display: block;
     }
-    .main-center {
-        width: 480px;
-        padding-top: 70px;
-        padding-bottom: 50px;
-    }
     .start {
         display: block;
         width: 400px;
@@ -803,7 +727,7 @@ header {
         display: block;
     }
     .recent {
-        display: block;
+        float: left;
         width: 340px;
         margin-left: 60px;
     }
@@ -823,11 +747,6 @@ header {
     }
     .partner-4 {
         padding-left: 50px;
-    }
-    .bottom-center {
-        width: 480px;
-        margin: 0 auto;
-        padding: 80px 10px;
     }
     .company,
     .news,
@@ -850,7 +769,7 @@ header {
     }
     .news {
         display: block;
-        width: 460px;
+        width: 480px;
         text-align: left;
         margin-bottom: 0;
     }
@@ -860,14 +779,9 @@ header {
         text-align: left;
         font-size: 26px;
     }
-    .footer-center {
-        width: 480px;
-        margin: 0 auto;
-        padding: 0px 10px;
-    }
     .footer-menu {
         display: block;
-        width: 460px;
+        width: 480px;
         text-align: center;
     }
     .footer-menu a {
@@ -882,9 +796,10 @@ header {
 }
 
 @media (max-width:480px) {
-    header {
+    .container {
         width: 320px;
-        padding: 60px 20px 20px 20px;
+        margin: 0 auto;
+        padding: 0 10px;
     }
     .logo {
         display: block;
@@ -897,21 +812,15 @@ header {
     .slider {
         background: none;
     }
-    .slider-content {
-        width: 320px;
-        padding: 0px 10px 0px 20px;
-        text-align: center;
+    .slider-left {
+        display: inline-block;
+        padding-left: 40px;
     }
     .iphone {
         display: none;
     }
     .buttons {
         padding-bottom: 70px;
-    }
-    .about-content {
-        width: 320px;
-        padding: 32px 10px;
-        padding-bottom: 10px;
     }
     .about-block {
         display: block;
@@ -924,9 +833,6 @@ header {
     }
     .about-text span {
         display: none;
-    }
-    .main-center {
-        width: 320px;
     }
     .start {
         width: 256px;
@@ -964,19 +870,11 @@ header {
         font-size: 20px;
         margin: 0;
     }
-    .partners-center {
-        width: 320px;
-        text-align: center;
-        padding: 30px 10px 70px 10px;
-    }
     .partner {
         padding: 20px 26px;
     }
     .bottom-blocks {
         display: none;
-    }
-    .footer-center {
-        width: 320px;
     }
     .footer-menu {
         display: none;
