@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: "HelveticaUltraLight";
+    src: url("../fonts/HelveticaUltraLight/HelveticaUltraLight.eot");
+    src: url("../fonts/HelveticaUltraLight/HelveticaUltraLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaUltraLight/HelveticaUltraLight.woff") format("woff"),
+    url("../fonts/HelveticaUltraLight/HelveticaUltraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+	background: url(../img/content.jpg )no-repeat;
+	background-size: cover;
+	font-family: helvetica,  "Helvetica Neue";
+}
+.wrapper{
+	margin: 0 auto;
+	width: 100%
+}
+
+.center{
+	width: 1215px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 34px;
+	background: url(../img/main-background.jpg);
+}
+.main-menu{
+	position: relative;
+	text-align: center;
+
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	width: 1215px;
+	margin: 0 auto;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+}
+.menu a{
+	display: block;
+	color: #60b5ed;
+	text-decoration: none;
+	padding: 8px 12px;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+.menu li:nth-child(5){
+	padding-right: 12px;
+	border-right: 1px solid #56a2dc;
+}
+.menu a:hover{
+	background: #4eabda;
+	color: #fff;
+	transition:0.2s all;
+}
+.Mihnas a{
+	position: relative;
+	padding-left: 50px;
+	color: #fff;
+}
+.Mihnas a:after{
+	position: absolute;
+	background-image: url(../img/flag.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	left: 10px;
+	top:6px;
+	content: '';
+}
+.Ola {
+	padding-right: 20px;
+}
+.Ola a{
+   color: #fff;
+   background: url(../img/ola.jpg);
+   border-right: 1px solid #62a7e2;
+   border-left: 1px solid #62a7e2;
+   border-bottom: 1px solid #62a7e2;
+}
+.Ola span{
+	text-decoration: underline;
+}
+.Ola a:hover{
+	background: url(../img/ola.jpg);
+}
+
+
+.cadastre-se img{
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 1030px;
+}
+.cadastre-se .se-content{
+	display: block;
+	position:relative;
+	width: 560px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.6);
+    top:100px;
+}
+
+.name{
+	display: block;
+	margin-bottom: 2px;
+    position: relative;
+}
+.name p{
+    font-size: 24px;
+	color: #fff;
+	text-align: center;
+	font-family: Tahoma;
+	padding: 18px 0;
+}
+.cadastre-se .log-in{
+	display: block;
+	height: 550px;
+}
+.log-in .facebook{
+	width: 276px;
+	height: 34px;
+	padding-top:36px;
+	padding-left: 142px;
+}
+.log-in .stripes{
+	width: 276px;
+    height: 12px;
+    padding-top: 102px;
+    padding-left: 142px;
+}
+.registration{
+	padding-left: 140px;
+	padding-top: 140px;
+}
+.registration input{
+	width: 256px;
+	height: 36px;
+	background: #111010;
+	color: #fff;
+	outline: none;
+	border: 0px;
+	font-family: Tahoma;
+	padding-left: 20px;
+	font-size: 14px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #494947;
+	cursor: pointer;
+}
+input::-webkit-input-placeholder { 
+    color:#ccc;
+}
+input:-moz-placeholder {
+	color:#ccc;
+}
+.registration  input:focus{
+	background: #1b5288;
+	transition:0.3s all;
+	box-shadow: 0px 0px 3px 3px rgba(104,155,204,0.86);
+}
+.checkbox{
+	padding-left: 142px;
+	font-family: Tahoma,Arial;
+	cursor: pointer;
+}
+label{
+	color:#ccc;
+	cursor: pointer;
+}
+.check:hover{	
+	background: #1b5288;
+	transition:0.3s all;
+	box-shadow: 0px 0px 3px 3px rgba(104,155,204,0.86);
+}
+.button{
+	margin-left: 206px;
+	margin-top: 22px;
+	background: linear-gradient(to bottom, rgba(80,175,219,1) 0%, rgba(46,121,196,1) 51%, rgba(46,122,196,1) 58%, rgba(46,122,196,1) 84%, rgba(46,122,196,1) 100%);
+    color:#fff;
+	width: 170px;
+	font-size: 16px;
+	font-family: Tahoma,Arial;
+	border: none;
+	text-align: center;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	box-shadow: 0px 0px 3px 1px rgba(103,198,230,1);
+	cursor: pointer;
+}
+.button:hover{
+	background: #6ec2e8;
+	transition:.8s all;
+	box-shadow: none;
+}
+.click{
+	color:#ccc;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin-top: 20px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
